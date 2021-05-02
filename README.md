@@ -1,1 +1,11 @@
-# MSDS_Capstone
+# Topic Modeling and Feature Extraction of Medical School Admissions Essays
+
+The following capstone project was submitted in partial fulfillment of the requirements for the degree of Master of Science in Data Science through the University of Wisconsin Eau Claire. The client for this project was the Medical Education Outcomes Center at the University of Minnesota, which is a partnership between the University of Minnesota Medical School and University of Minnesota Health Science Technology.
+
+This project was completed using Jupyter Notebooks. The data is private and cannot be shared. The Jupyter Notebook which includes the code, but does not include any specific unique identifiers or essay text (besides keywords and phrases extracted from all essays, is included in this Github repository. 
+
+### Abstract
+A lot of structured and unstructured data is created throughout the different stages of the medical education continuum, but much of the unstructured data does not get used as frequently as structured data in research. Unstructured text data is unable to be used in its raw format in most traditional statistical and machine learning analyses. In order to use text data for this purpose, it must be transformed into a useable format. A review of the literature found previous works that used higher education admissions essays for thematic, text mining, and computational linguistic analyses. It also found works that used the output of similar analyses for the prediction of different types of outcomes. This paper discusses how a set of features were extracted from 1361 medical school admissions personal statement essays. The purpose was to create something from otherwise unstructured text data that could be linked to student, clinical, and workforce outcomes. Methods used include natural language processing techniques and unsupervised machine learning based topic modeling methods including Latent Dirichlet Allocation, and Non-Negative Matrix Factorization. A topic model was created which included interpretable topics which gave insight into the contents of the personal statements. The model was applied to the dataset of essays to create a feature vector which was exported. The results of the analysis have the potential to be used as input in other analyses, and the methods used could be replicated for similar unstructured text data. 
+
+Keywords:  Medical School, Personal Statements, Natural Language Processing, Topic Modeling, Text Mining, Feature Extraction, Unstructured Data  
+
